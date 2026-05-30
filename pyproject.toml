@@ -1,0 +1,15 @@
+[project]
+name = "it5425-assignment"
+version = "0.1.0"
+description = "Multi-dimensional data visualizations for the CMP_SC-8630 data visualization assignment."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+    "numpy>=1.24",
+]
+
+[tool.uv]
+package = false
